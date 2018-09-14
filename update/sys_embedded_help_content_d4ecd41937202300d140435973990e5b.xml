@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>reporting</category>
+        <content><![CDATA[ <h1 class="title topictitle1">Create a scheduled email of a report</h1>  <div class="body taskbody">  <div class="section prereq p"><span class="ph">Schedule a report to automate its distribution. Scheduled            reports can be distributed in PDF, CSV, or XLS format. Graphical reports can be            distributed in PNG or PDF format.</span>   <span class="ph">To create scheduled reports, you must have                both the itil role and either the report_admin or report_scheduler                role.</span></div>  <ol class="ol steps" id="sys_report-normal__steps_nfz_z45_1z"><li class="li step stepexpand">    <span class="ph cmd">In the Report Designer, click the <span class="ph uicontrol">Sharing</span> icon and select      <span class="ph uicontrol">Schedule</span>. </span>   </li><li class="li step stepexpand">    <span class="ph cmd">Fill in the fields as appropriate.</span>   </li><li class="li step stepexpand">                <span class="ph cmd">Click <span class="ph uicontrol">Submit</span>.</span>            </li><li class="li step stepexpand"><strong>Optional: </strong>                <span class="ph cmd">Use the <span class="ph uicontrol">Included in Email</span> related list to create                    additional scheduled reports.</span>                <div class="itemgroup info">                    <p class="p">Each report you add to the <span class="ph uicontrol">Included in Email</span> related                        list must have its own schedule. By specifying a schedule for each report,                        you can send different reports to recipients of the previously identified                        reports, each with its own schedule.</p>                </div>                <div class="itemgroup info">To unschedule a report:<ol class="ol" id="sys_report-normal__d48165e412"><li class="li">Navigate to <span class="ph menucascade"><span class="ph uicontrol">Reports</span> &gt; <span class="ph uicontrol">Scheduled reports</span></span>.</li><li class="li">Select the entry.</li><li class="li">Choose <span class="ph uicontrol">Delete</span> from <span class="ph uicontrol">Actions on selected                                rows</span>.</li></ol>This action only deletes the report schedule, not the report itself.</div>            </li></ol> </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:differences-between-builder-and-designer&amp;version&#61;kingston" target="_blank">Differences between Report Builder and Report Designer</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:schedule-a-report&amp;version&#61;kingston" target="_blank">Schedule a report</a></div></div></div></div>]]></content>
+        <last_sync>2018-09-13 14:26:08</last_sync>
+        <modifier>normal</modifier>
+        <name>sysauto_report-normal</name>
+        <page>sysauto_report</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-09-13 14:26:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4ecd41937202300d140435973990e5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysauto_report-normal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_d4ecd41937202300d140435973990e5b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-09-13 14:26:08</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4ecd41937202300d140435973990e5b"/>
+</record_update>
